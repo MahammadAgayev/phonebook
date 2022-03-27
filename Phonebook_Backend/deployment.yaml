@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend-app
-          image: mahammadagayev/phonebook-backend
+          image: {REPOSITORY_TAG}
           imagePullPolicy: IfNotPresent
 ---
 apiVersion: v1
