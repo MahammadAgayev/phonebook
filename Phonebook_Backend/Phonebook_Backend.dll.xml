@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<dal>
+		<connection name="default" providerName="MySql.Data.MySqlClient" connectionString="server=127.0.0.1;user=db_user;database=phonebook_db;password=P@s$w0rd123!"/>
+	</dal>
+	<listener>
+		<endpointUrl>http://+:8080/</endpointUrl>
+	</listener>
+	<sqlQuery>
+		<add>INSERT INTO users (user_id, name, phone) VALUES ()</add>
+		<edit></edit>
+		<list></list>
+	</sqlQuery>
+</configuration>
