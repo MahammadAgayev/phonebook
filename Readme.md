@@ -12,6 +12,8 @@ kubectl config view --raw
 
 Open lens, click add cluster and paste config file copies from command result.
 Now we have UI for managing kubernetes cluster.
+![image](images/image_2022-03-28_13-22-14.png)
+Go to service page under Network section. Click jenkins
 
 ![image](/images/image_2022-03-28_13-12-17.png)
 
