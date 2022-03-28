@@ -8,7 +8,6 @@ kubectl apply -f mysql.yaml
 
 Install lens: https://api.k8slens.dev/binaries/Lens%20Setup%205.4.4-latest.20220325.1.exe
 
-execute below command
 kubectl config view --raw
 
 Open lens, click add cluster and paste config file copies from command result.
