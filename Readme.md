@@ -1,6 +1,6 @@
 * docker build - < Jenkins_Dockerfile -t umidrahimov/customjenkins
 * docker login -u {YOUR_USERNAME} -p {YOUR_PASSWORD}
-* docker push umidrahimov/customjenkins
+* docker push {YOUR_USERNAME}/customjenkins
 
 kubectl apply -f jenkins.yaml
 kubectl apply -f mysql-pv.yaml
